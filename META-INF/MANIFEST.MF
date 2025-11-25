@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kotlin
+Bundle-SymbolicName: com.example.kotlin
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface
+Automatic-Module-Name: com.example.kotlin
+Bundle-ClassPath: kotlin-stdlib-2.2.21.jar,
+ okhttp-4.11.0.jar,
+ .,
+ kotlin-reflect-2.2.21.jar,
+ okio-jvm-3.4.0.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-17
